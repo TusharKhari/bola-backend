@@ -25,7 +25,7 @@ const userRoute = require('./route/UserRoute');
 app.use('/api',userRoute);
 
 app.use("/", (req , res)=>{ 
-    res.send("Home Page");
+    res.send("Home Pagee");
 });
 
 // //notification route
